@@ -5,9 +5,9 @@
     "import/no-extraneous-dependencies": [0],
     "linebreak-style": ["error", "unix"],
     "react/prop-types": ["error", {"ignore": ["children", "route"]}],
-    "new-cap": [0],
+    "new-cap": [0]
   },
   "env" :{
-    "browser": true,
+    "browser": true
   }
 }
