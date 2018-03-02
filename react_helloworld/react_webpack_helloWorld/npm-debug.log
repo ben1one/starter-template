@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\ben.suen\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.5
+3 info using node@v9.7.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle react_demo@1.0.0~predev: react_demo@1.0.0
+6 silly lifecycle react_demo@1.0.0~predev: no script for predev, continuing
+7 info lifecycle react_demo@1.0.0~dev: react_demo@1.0.0
+8 verbose lifecycle react_demo@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle react_demo@1.0.0~dev: PATH: C:\Users\ben.suen\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\ben.suen\Documents\GitHub\react_demo\node_modules\.bin;C:\Program Files\nodejs;C:\Ruby23-x64\bin;Z:\.sys\apache2\bin;Z:\.sys\miniperl\bin;Z:\.sys\php;C:\ProgramData\Oracle\Java\javapath;C:\Ruby200-x64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Users\ben.suen\AppData\Local\atom\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\ben.suen\AppData\Local\Programs\Fiddler;C:\Users\ben.suen\AppData\Roaming\npm
+10 verbose lifecycle react_demo@1.0.0~dev: CWD: C:\Users\ben.suen\Documents\GitHub\react_demo
+11 silly lifecycle react_demo@1.0.0~dev: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack-dev-server --devtool eval --progress --colors --content-base build' ]
+12 silly lifecycle react_demo@1.0.0~dev: Returned: code: 3221225786  signal: null
+13 info lifecycle react_demo@1.0.0~dev: Failed to exec dev script
+14 verbose stack Error: react_demo@1.0.0 dev: `webpack-dev-server --devtool eval --progress --colors --content-base build`
+14 verbose stack Exit status 3221225786
+14 verbose stack     at EventEmitter.<anonymous> (C:\Users\ben.suen\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:242:16)
+14 verbose stack     at EventEmitter.emit (events.js:127:13)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Users\ben.suen\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at ChildProcess.emit (events.js:127:13)
+14 verbose stack     at maybeClose (internal/child_process.js:936:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
+15 verbose pkgid react_demo@1.0.0
+16 verbose cwd C:\Users\ben.suen\Documents\GitHub\react_demo\react_webpack_helloWorld
+17 error Windows_NT 6.1.7601
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\ben.suen\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+19 error node v9.7.0
+20 error npm  v3.10.5
+21 error code ELIFECYCLE
+22 error react_demo@1.0.0 dev: `webpack-dev-server --devtool eval --progress --colors --content-base build`
+22 error Exit status 3221225786
+23 error Failed at the react_demo@1.0.0 dev script 'webpack-dev-server --devtool eval --progress --colors --content-base build'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the react_demo package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server --devtool eval --progress --colors --content-base build
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs react_demo
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls react_demo
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
